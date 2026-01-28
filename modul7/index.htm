@@ -1,12 +1,14 @@
 <html>
     <body>
         <form>
+            <fieldset>
+            <legend>personal info</legend>    
             <label for="firstname">firstname:</label><br>
-            <input type="text" id="firstname" name="firstname"><br>
+            <input type="text" id="firstname" name="firstname" value="john" disabled><br>
             <label for="lastname">lastname:</label><br>
-            <input type="text" id="lastname" name="lastname"><br>
+            <input type="text" id="lastname" name="lastname" size="32" required><br>
             <label for="password">password:</label><br>
-            <input type="password" id="password" name="password"><br>
+            <input type="password" id="password" name="password" placeholder="password"><br>
             <label for="email">email:</label><br>
             <input type="email" id="email" name="email"><br><br>
             <input type="submit" id="submit" name="submit"><br><br>
@@ -22,10 +24,14 @@
             <label> football:</label><br>
             <input type="checkbox" id="handball" name="handball" value="handball"><br>
             <label> handball:</label><br>
-
-
-            
-
+            <label for="pet"> choose a pet</label>
+            <select id="pet" name="pet">
+                <option value="dog">dog</option>
+                <option value="cat">cat</option>
+                <option value="parrot">parrot</option>
+            </select><br><br>  
+            <textarea name="message" rows="10" cols="20" maxlength="50"></textarea>
+            </fieldset>
         </form>
     </body>
 </html>
