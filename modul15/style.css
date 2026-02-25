@@ -1,0 +1,35 @@
+#static {
+    position: static;
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    padding: 20px;
+}
+#relative {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    left: 200px;
+    top: 50px;
+    padding: 20px;
+
+   
+}
+#fixed {
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    border: 3px solid black;
+    padding: 20px;
+    right: 200px;
+    top: 100px;
+
+}
+#h1fixed {
+    position: fixed;
+    right:300px;
+    top: 100px;
+  
+
+}
