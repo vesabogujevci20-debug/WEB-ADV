@@ -1,0 +1,52 @@
+:root{
+    --primary-color: darkblue;
+    --secondary-color: lightblue;
+    --padding: 20px;
+}
+h1{
+   background-color: var(--primary-color);
+   color: var(--secondary-color);
+   padding: var(--padding);
+}
+p{
+    background-color: var(--secondary-color);
+}
+#one{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background: var(--primary-color);
+}
+#two{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background: var(--primary-color);
+    border: 10px solid var(--primary-color);
+}
+#three{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px 40px 10px;
+    background: var(--primary-color);
+    border: 10px solid var(--primary-color);
+}
+#four{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px/30px;
+    background: var(--primary-color);
+    border: 10px solid var(--primary-color);
+}
+#five{
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius:30px/10px ;
+    background: var(--primary-color);
+    border: 10px solid var(--primary-color);
+}
