@@ -1,0 +1,36 @@
+#translate{
+    background-color: beige;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transform: translate(20px, 50px);
+ 
+}
+#scalex{
+    background-color:rgb(197, 197, 26);
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    transform: scale(2.2);
+    margin: 150px;
+    padding: 10px;
+ 
+}
+#rotatex{
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    transform: rotatex(270deg);
+    margin: 150px;
+    padding: 10px;
+}
+#skewx{
+    background-color: rgb(255, 0, 255);
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    transform: skewx(20deg);
+    margin: 150px;
+    padding: 10px;
+}
