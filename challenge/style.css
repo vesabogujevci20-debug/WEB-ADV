@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content:flex-end;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+   
+    font-size: 30px;
+    gap : 20px;
+}
+body{
+    background-color: purple;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 40px;
+}
+button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding:  20px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 750px;
+    margin-top: 80px;
+}
+img {
+    display: flex;
+    justify-content: flex-start;
+    text-align: flex-start;
+}
+
