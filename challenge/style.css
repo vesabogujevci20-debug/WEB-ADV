@@ -2,9 +2,8 @@
     display: flex;
     justify-content:flex-end;
     color: white;
-    padding: 10px;
-    margin: 20px;
-   
+    padding: 5px;
+    margin: 10px;
     font-size: 30px;
     gap : 20px;
 }
@@ -27,9 +26,7 @@ button {
     margin-left: 750px;
     margin-top: 80px;
 }
-img {
-    display: flex;
-    justify-content: flex-start;
-    text-align: flex-start;
+.logo{
+    margin-right: 1000px;
 }
 
