@@ -29,4 +29,10 @@ button {
 .logo{
     margin-right: 1000px;
 }
+@media (min-width: 600px) {
+    body {
+        margin: -100px;
+        background-color: lightblue;
+    }
+}   
 
