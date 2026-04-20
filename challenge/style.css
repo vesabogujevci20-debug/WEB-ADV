@@ -31,7 +31,7 @@ button {
 }
 @media (min-width: 600px) {
     body {
-        margin: -100px;
+        margin: auto;
         background-color: lightblue;
     }
 }   
