@@ -1,0 +1,31 @@
+body{
+
+    background-image: url("photo/food2.webp");
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1400px;
+}
+figcaption{
+    color: dimgray;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 60px;
+}
+p{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 60px;
+    background-color: lightblue;
+}
+button{
+    color:red; 
+    margin-top: 20px;
+    font-size: 60px;
+    background-color:black; 
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

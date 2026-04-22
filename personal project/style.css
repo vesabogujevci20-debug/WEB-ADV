@@ -22,11 +22,12 @@ p{
     gap : 40px;
     text-decoration: none;
 } 
-.photo{
+#masterchef{
    width: 140px;
    height: 140px;
    float: left;
    margin-right : 900px;
+   
 }  
 .menu{
     text-decoration: none;
@@ -43,4 +44,19 @@ p{
 .menu a{
     text-decoration: none;
 
+}
+#food{
+    margin-left: 230px;
+    text-decoration: none;
+    width: 1200px;
+    height: 600px;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: .8s ease-in-out ;
+
+
+
+ 
+    
+   
 }
