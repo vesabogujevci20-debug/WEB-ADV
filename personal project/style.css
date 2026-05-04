@@ -13,15 +13,15 @@ p{
 
 }
 .navbar {
+
     display: flex;
     justify-content: center;
     color: black;
     padding: 5px;
-
-    
     font-size: 40px;
     gap : 40px;
     text-decoration: none;
+  
 } 
 #masterchef{
    width: 140px;
@@ -54,10 +54,13 @@ p{
     border-radius: 10px;
     transform: scale(1);
     transition: .8s ease-in-out ;
-
-
-
- 
     
    
 }
+@media (max-width: 768px){
+    .navbar{
+        display: flex;
+        flex-direction:column;
+    }
+}
+    
