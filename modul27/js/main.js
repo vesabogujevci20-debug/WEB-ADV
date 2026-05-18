@@ -37,3 +37,12 @@ console.log(car.getkilometrers);
 alert(car.name);
 alert(car[`color`]);
 car.starengine();
+
+function computearea(name,cpu,ram,rom){
+    this.name=name;
+    this.cpu=cpu;
+    this.ram=ram;
+    this.rom=rom;
+}
+var com1=new computearea("macbook","8-core","8GB","8GB");
+var com2=new computearea("macbook2","6-core","8GB","8GB");
