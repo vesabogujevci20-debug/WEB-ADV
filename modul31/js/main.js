@@ -24,3 +24,36 @@ while(y<4){
 for(var b=0;b<5;b++){
     console.log("vlera e b eshte :" + b);
 }
+
+
+var person = {firstname:"John", lastname:"Doe", age:25};
+
+var text = "";
+
+var z;
+
+for (z in person) {
+  text += person[z];
+}
+console.log(text);
+
+console.log("----------");
+
+var names = ["steve", "bill", "mark"];
+
+var y;
+
+for (y of names) {
+  console.log(y);
+}
+
+console.log("----------");
+
+var txt = "javaScript";
+
+var l;
+
+
+for (l in txt) {
+  console.log(l);
+}                                                                                                                                        
