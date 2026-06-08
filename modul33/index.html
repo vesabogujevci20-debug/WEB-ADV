@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>lesson33</title>
+</head>
+<body>
+
+    <form onsubmit="return validation()" method="POST">
+        <div class=" name-container">
+            <label for="name" id="name_label">Name:</label>
+            <input type="text" id="name" name="name">
+            <span id="name_error">Please enter a valid name</span>
+        </div>
+        <br>
+        <div class=" age-container">
+            <label for="age" id="age_label">Age:</label>
+            <input type="text" id="age" name="age">
+            <span id="age_error">Please enter a valid age</span>
+        </div>
+        <br>
+        <div class="city-container">
+            <label for="city" id="city_label">City:</label>
+            <select  id="city" name="city">
+                <option value="" selected></option>
+                <option value="prishtine">Prizren</option>
+                <option value="prizren">prizren</option>
+                <option value="gjilan">gjilan</option>
+                <option value="ferizaj">ferizaj</option>
+            </select>
+            <span id="city_error">Please select a city</span>
+        </div>
+        <br>
+        <button type="submit" name="submit">SEND</button>
+    </form>    
+            
+            
+
+    <script src="js/main.js"></script>
+
+    
+</body>
+</html>
