@@ -16,7 +16,7 @@ circle.onclick=function(){
     var time=(timeend-timestart)/1000;
     showtime.innerHTML=time + 's';
 }
-    var timeend= new Date().getTime();
+var timeend= new Date().getTime();
 
 function randomcolor(){
     var s = "0123456789ABCDEF";
